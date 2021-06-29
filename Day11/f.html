@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        body{
+            background-color: black;
+            color:white;
+        }
+        h5{
+            padding: 2px;
+            margin-top: 6px;
+            margin-bottom: 6px;
+        }
+        .next{
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>QUIZZ DEVSNEST</h1>
+        <h3 class="Question"></h3>
+        <h5 class="option1"></h5>
+        <button class="Select" onclick="Select1()" id="Select1" >SELECT ANSWER</button>
+        <h5 class="option2"></h5>
+        <button class="Select" onclick="Select2()" id="Select2" >SELECT ANSWER</button>
+        <h5 class="option3"></h5>
+        <button class="Select" onclick="Select3()" id="Select3" >SELECT ANSWER</button>
+        <h5 class="option4"></h5>
+        <button class="Select" onclick="Select4()" id="Select4" >SELECT ANSWER</button>
+    </div>
+    <button onclick="fnext()" class="next">NEXT</button>
+    <script src="f.js"></script>
+</body>
+</html>
